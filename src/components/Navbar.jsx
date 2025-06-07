@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
+import logo from "../assets/logo.png";
 import close from "../assets/close.svg"; // Add your close icon here
 import menu from "../assets/menu.svg"; // Add your hamburger icon here
 import { navLinks } from "../constants";
@@ -37,7 +38,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src="./logo.png" alt="logo" className="h-10 w-10 object-contain" />
+          <img src={logo} alt="logo" className="h-10 w-10 object-contain" />
           <p className="text-gradient hidden sm:block text-[18px] font-bold text-white">
             Saurabh <span className="text-sm font-normal text-gray-400">| MERN Stack Developer</span>
           </p>

@@ -187,4 +187,3 @@ export {
   technologies,
   tools
 };
-
