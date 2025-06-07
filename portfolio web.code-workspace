@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "portfolio web",
+			"path": "."
+		},
+		{
+			"name": "node_modules",
+			"path": "../portfolio/portfolio/node_modules"
+		},
+		{
+			"name": "src",
+			"path": "../portfolio/portfolio/src"
+		}
+	],
+	"settings": {}
+}
