@@ -98,7 +98,7 @@ const Contact = () => {
           </div>
 
           <div className="flex flex-wrap gap-4">
-            <a href="mailto:mern.dev.rajesh@gmail.com" className="w-full sm:w-auto">
+<a href="mailto:mern.dev.saurabh@gmail.com" className="w-full sm:w-auto">
               <Button
                 variant="outlined"
                 startIcon={<Email />}
